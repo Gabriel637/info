@@ -52,7 +52,7 @@ export default function About() {
             <a href="https://github.com/Gabriel637" target="_blank" className="flex items-center gap-2 bg-gray-700 px-5 py-2 rounded-lg hover:bg-gray-600 transition">
               <FaGithub className="text-white text-xl" /> GitHub
             </a>
-            <a href={"/Gabriel_Barbosa_Resume.pdf"} download="Gabriel_Barbosa_Resume" className="flex items-center gap-2 bg-green-700 px-5 py-2 rounded-lg hover:bg-green-600 transition">
+            <a href={"/info/Gabriel_Barbosa_Resume.pdf"} download="Gabriel_Barbosa_Resume" className="flex items-center gap-2 bg-green-700 px-5 py-2 rounded-lg hover:bg-green-600 transition">
               <FaFilePdf className="text-white text-xl" /> Resume
             </a>
           </div>
