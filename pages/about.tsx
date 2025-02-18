@@ -27,12 +27,12 @@ export default function About() {
       <div className="flex w-full">
         <div className="text-center md:text-left md:w-1/2">
 
-          <h1 className="text-4xl font-bold">Hello, I'm <span className="text-blue-400">Gabriel Barbosa</span></h1>
+          <h1 className="text-4xl font-bold">Hello, I&apos;m <span className="text-blue-400">Gabriel Barbosa</span></h1>
           <p className="mt-4 text-lg text-gray-300">
-            A full-stack developer with a passion for front-end solutions. Over the years, I've worked with technologies like React, TypeScript, and Node.js to create smooth and user-friendly experiences. From banking to e-commerce to sales platforms, I've had the chance to contribute to a variety of projects, always focusing on performance and usability.
+            A full-stack developer with a passion for front-end solutions. Over the years, I&apos;ve worked with technologies like React, TypeScript, and Node.js to create smooth and user-friendly experiences. From banking to e-commerce to sales platforms, I&apos;ve had the chance to contribute to a variety of projects, always focusing on performance and usability.
           </p>
           <p className="mt-4 text-lg text-gray-300">
-            If you're interested in chatting about my skills or how I can help with your projects, feel free to reach out!
+            If you&apos;re interested in chatting about my skills or how I can help with your projects, feel free to reach out!
           </p>
 
           <div className="flex gap-4 mt-6 justify-center md:justify-start">

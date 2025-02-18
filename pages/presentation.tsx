@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { useSpring, animated } from "@react-spring/web";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { RxDoubleArrowDown } from "react-icons/rx";
-import { useReward } from "react-rewards";
 
 const items = [
   { text: "a software engineer", animation: "https://lottie.host/9bb19425-ba01-4efd-b5fa-fa4fe36b3829/0eRneeSbkZ.lottie" },

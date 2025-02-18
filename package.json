@@ -5,15 +5,15 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.13.0",
+    "@react-spring/types": "^9.7.5",
     "@react-spring/web": "^9.7.5",
     "next": "15.1.7",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-icons": "^5.4.0",
     "react-lottie": "^1.2.10",
     "react-rewards": "^2.1.0"
@@ -21,10 +21,11 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.6",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
+    "gh-pages": "^6.3.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
